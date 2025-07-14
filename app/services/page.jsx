@@ -1,3 +1,10 @@
+export const metadata = {
+  title: 'Services - Tutor/Freelancer Template',
+  description:
+    'Explore the tutoring and freelance services offered, including math, science, coding, and more.',
+  keywords: ['services', 'tutoring', 'freelance services', 'online lessons'],
+}
+
 export default function Services() {
   return (
     <div className='max-w-5xl mx-auto px-4 py-10'>

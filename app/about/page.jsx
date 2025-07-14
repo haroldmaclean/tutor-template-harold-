@@ -1,3 +1,10 @@
+export const metadata = {
+  title: 'About - Tutor/Freelancer Template',
+  description:
+    'Learn more about Harold Mzumara, the creator of this tutor/freelancer website template.',
+  keywords: ['about', 'tutor template', 'freelancer template', 'portfolio'],
+}
+
 export default function About() {
   return (
     <div className='max-w-3xl mx-auto px-6 py-10'>

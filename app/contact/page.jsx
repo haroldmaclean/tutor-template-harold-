@@ -1,19 +1,14 @@
-'use client'
+// app/contact/page.jsx
+
+export const metadata = {
+  title: 'Contact - Tutor/Freelancer Template',
+  description:
+    'Get in touch via WhatsApp, email, or location to book your tutoring or freelance session.',
+  keywords: ['contact', 'whatsapp', 'email', 'booking'],
+}
+
+import ContactClient from '../components/ContactClient'
 
 export default function Contact() {
-  return (
-    <div className='max-w-3xl mx-auto px-6 py-10'>
-      <h2 className='text-3xl font-bold mb-4 text-gray-800'>Contact Me</h2>
-      <p className='text-gray-600 mb-4'>
-        You can reach me on WhatsApp or send an email:
-      </p>
-      <button
-        onClick={() => window.open('https://wa.me/+27753316414', '_blank')}
-        className='bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded shadow'
-      >
-        📞 Message me on WhatsApp
-      </button>
-      <p className='mt-4 text-gray-600'>📧 Email: harold@example.com</p>
-    </div>
-  )
+  return <ContactClient />
 }

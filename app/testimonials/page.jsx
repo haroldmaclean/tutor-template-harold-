@@ -1,3 +1,10 @@
+export const metadata = {
+  title: 'Testimonials - Tutor/Freelancer Template',
+  description:
+    'Read what clients and students say about the tutoring and freelance services.',
+  keywords: ['testimonials', 'reviews', 'client feedback', 'student feedback'],
+}
+
 export default function Testimonials() {
   return (
     <div className='max-w-3xl mx-auto px-6 py-10'>
