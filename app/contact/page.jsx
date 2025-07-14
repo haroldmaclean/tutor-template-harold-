@@ -1,5 +1,3 @@
-// app/contact/page.jsx
-
 export const metadata = {
   title: 'Contact - Tutor/Freelancer Template',
   description:
@@ -8,7 +6,13 @@ export const metadata = {
 }
 
 import ContactClient from '../components/ContactClient'
+import ContactForm from '../components/ContactForm'
 
-export default function Contact() {
-  return <ContactClient />
+export default function ContactPage() {
+  return (
+    <div className='max-w-3xl mx-auto px-6 py-10'>
+      <ContactClient />
+      <ContactForm />
+    </div>
+  )
 }

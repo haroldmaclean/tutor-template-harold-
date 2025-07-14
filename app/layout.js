@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ThemeToggle from './components/ThemeToggle'
 
 export const metadata = {
   title: 'Tutor/Freelancer Website Template - Professional & Responsive',
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body>
         <Header />
+        <ThemeToggle />
         <main className='min-h-screen'>{children}</main>
 
         {/* Floating WhatsApp Button */}

@@ -7,7 +7,7 @@ export default function HomeClient() {
 
   return (
     <div className='text-center px-6 py-10'>
-      <h1 className='text-4xl font-bold mb-4 text-gray-800'>
+      <h1 className='text-gray-700 dark:text-gray-300'>
         Professional Tutoring for Future Success – Learn with Confidence
       </h1>
       <button
