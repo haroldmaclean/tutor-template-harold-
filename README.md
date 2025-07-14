@@ -22,5 +22,5 @@
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/tutor-template.git
+   git clone https://github.com/haroldmaclean/tutor-template.git
    ```
