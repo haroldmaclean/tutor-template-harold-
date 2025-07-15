@@ -1,26 +1,51 @@
-# Tutor/Freelancer Website Template
+# 🧑‍🏫 Tutor / Freelancer Website Template
 
-🎓 A clean, responsive website template built with Next.js 14.2.30 and Tailwind CSS, designed for tutors, freelancers, coaches, and consultants.
+A clean, responsive, and modern website template for **private tutors**, **freelancers**, or **coaches**, built with **Next.js 14** and **Tailwind CSS**.
 
-## Features
+Deployed on [Vercel](https://tutor-template-harold.vercel.app)
 
-- Responsive layout with Tailwind CSS
-- Pages: Home, About, Services, Testimonials, Contact
-- Reusable Header and Footer components
-- Floating WhatsApp contact button for instant client connection
-- Mobile-friendly and easy to customize
-- Ready to deploy on Vercel or any Next.js-compatible platform
+---
 
-## Getting Started
+## 📦 Live Preview & Download
 
-### Prerequisites
+- 🔗 **Live Site**: [tutor-template-harold.vercel.app](https://tutor-template-harold.vercel.app)
+- 📁 **Download ZIP**: [Click to Download](https://tutor-template-harold.vercel.app/tutor-template-harold.zip)
 
-- Node.js (v16 or later recommended)
-- npm or yarn package manager
+---
 
-### Installation
+## 📄 Pages Included
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/haroldmaclean/tutor-template.git
-   ```
+| Page         | Description                                           |
+| ------------ | ----------------------------------------------------- |
+| Home         | Hero section, headline, and call-to-action (WhatsApp) |
+| About        | Brief bio, tutor background                           |
+| Services     | Tutoring/freelance services list                      |
+| Testimonials | Reviews from past students/clients                    |
+| Contact      | WhatsApp contact + email + custom contact form        |
+| Thank You    | Redirect page after form submission                   |
+
+---
+
+## ⚙️ Tech Stack
+
+- ✅ [Next.js 14.2.30](https://nextjs.org/)
+- ✅ [Tailwind CSS](https://tailwindcss.com/)
+- ✅ App Router & Dynamic Metadata
+- ✅ Light/Dark Theme Toggle
+- ✅ Floating WhatsApp Button
+- ✅ Form validation with redirect (Formspree)
+
+---
+
+## 🌐 Features
+
+- 🎯 Fully responsive and mobile-friendly
+- 💬 Contact form with client-side validation
+- 🌙 Light/dark mode toggle
+- 📥 Download ZIP button (for resale or delivery)
+- 🔒 SEO metadata and Open Graph image
+- 🛠️ Reusable layout & components (Header, Footer)
+
+---
+
+## 📁 Folder Structure
